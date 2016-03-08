@@ -10,7 +10,7 @@
 			$consulta = "INSERT INTO login (nombre, email, telefono, pass) VALUES ('$nombre','$email','$telefono','$pass')";
 				echo "USUARIO REGISTRADO CON EXITO";
 				?>
-				<ul><a href="../login.php" id="enlaces">&laquo;Iniciar sesion</a></ul>
+				<ul><a href="../login.php" id="enlaces">&laquo;Iniciar sesi&oacute;n</a></ul>
 				<?php
 		mysqli_query($conexion,$consulta);
 		}else{
@@ -23,4 +23,4 @@
 
  ?>
 
- 	<ul><a id="paginas1" href="javascript:window.history.back();">&laquo; Volver atrás</a></ul>
+ 	<ul><a id="paginas1" href="javascript:window.history.back();">&laquo; Volver atr&aacute;s</a></ul>

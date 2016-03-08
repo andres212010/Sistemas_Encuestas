@@ -32,7 +32,7 @@ isset($_POST["email"]);
                <input type="text" name="telefono" placeholder="Telefono" required value="<?php echo $telefono; ?>"required/>
             </li>
 
-   			<h5>Contraseña</h5>
+   			<h5>Contrase&ntilde;a</h5>
    			
             <li>
    				<input type="password" name="password" placeholder="Password" required />
@@ -48,7 +48,7 @@ isset($_POST["email"]);
    			 <li>
    			 	<input type="submit" class="submit" value="Registro">
    			 </li>
-   			 <a id="paginas1" href="javascript:window.history.back();">&laquo; Volver atrás</a>
+   			 <a id="paginas1" href="javascript:window.history.back();">&laquo; Volver atr&aacute;s</a>
    		</ul>	
    </form>
 </section>
